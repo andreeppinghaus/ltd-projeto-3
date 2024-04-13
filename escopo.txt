@@ -1,0 +1,19 @@
+[LTD PROJETO 3 - BIBLIOTECA (PYTHON E C) PARA ARDUINO]
+
+1. Descrição e histórico do projeto:
+   - Projeto surgiu em iniciativa da Universidade Estácio de Sá (UNESA) Campus Nova América, por meio do coordenador Rodrigo Augusto dos cursos de Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas que recebeu uma doação de uma plataforma de prototipagem de hardware com ESP32. Com o intuito de facilitar o acesso dos alunos ao protótipo, o coordenador Rodrigo solicitou ao LTD a criação de uma interface de programação de aplicações (API) nas linguagens Python e C++. O professor André Eppinghaus organizou uma equipe LTD para que os alunos pudessem trabalhar para modelar, extrair, tratar e construir uma API para atender o objetivo. 
+
+2. Escopo do Projeto:
+   - Pesquisar os sensores;
+    Criar códigos isolados nas linguagens Python e em C++;
+    Criar uma classe para cada linguagem;
+    Disponiliblizar no github.
+
+3. Entregáveis:
+   - Trabalhar para modelar, extrair, tratar e construir uma API para atender o objetivo. O grupo de alunos foi dividido em equipes como documentação e desenvolvimento de códigos simulando o trabalho em uma empresa do setor de software.
+
+10. Assinaturas:
+    - Rodrigo Martins;
+
+[Data de Elaboração do Documento: 13/04/2024]
+[Autor: Rodrigo Martins]

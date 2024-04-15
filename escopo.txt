@@ -1,19 +1,98 @@
-[LTD PROJETO 3 - BIBLIOTECA (PYTHON E C) PARA ARDUINO]
+				 	
+          Universidade Estácio de Sá (UNESA) -
+                Campus Nova América 
 
-1. Descrição e histórico do projeto:
-   - Projeto surgiu em iniciativa da Universidade Estácio de Sá (UNESA) Campus Nova América, por meio do coordenador Rodrigo Augusto dos cursos de Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas que recebeu uma doação de uma plataforma de prototipagem de hardware com ESP32. Com o intuito de facilitar o acesso dos alunos ao protótipo, o coordenador Rodrigo solicitou ao LTD a criação de uma interface de programação de aplicações (API) nas linguagens Python e C++. O professor André Eppinghaus organizou uma equipe LTD para que os alunos pudessem trabalhar para modelar, extrair, tratar e construir uma API para atender o objetivo. 
 
-2. Escopo do Projeto:
-   - Pesquisar os sensores;
-    Criar códigos isolados nas linguagens Python e em C++;
-    Criar uma classe para cada linguagem;
-    Disponiliblizar no github.
+												 
+ 	Projeto LTD 3 - Biblioteca (Python e C) para arduino
 
-3. Entregáveis:
-   - Trabalhar para modelar, extrair, tratar e construir uma API para atender o objetivo. O grupo de alunos foi dividido em equipes como documentação e desenvolvimento de códigos simulando o trabalho em uma empresa do setor de software.
 
-10. Assinaturas:
-    - Rodrigo Martins;
+		Guilherme Martins - 202402990594
+		Rodrigo Martins - ....
+		.....	
+		.....
 
-[Data de Elaboração do Documento: 13/04/2024]
-[Autor: Rodrigo Martins]
+
+			Rio de Janeiro, Abril de 2024
+
+
+
+
+
+
+
+										                                                                                                                                                           Biblioteca de Phyton e C	                  
+								                                                                                                                                                                        Objetivo
+                                                                      O objetivo deste projeto é desenvolver uma biblioteca para Arduino que permita a comunicação com sensores, utilizando tanto a linguagem de                                                                               programação C quanto Python no computador. A biblioteca facilitará a integração de diferentes componentes de hardware em projetos Arduino e                                                                              oferecerá uma interface amigável para interação com o usuário.
+
+Versão 0.0	
+ 
+                                                                                       Histórico de Alterações
+                                                                                   Data	Versão	Descrição	Autor
+			
+			
+	
+  																																
+					
+1.1 Planejamento
+
+1.1.1 Recursos Humanos
+⦁	Desenvolvedores: Serão necessários desenvolvedores com experiência em linguagem C para programação do firmware do Arduino e em Python para a interface do usuário.
+⦁	Gerente de Projeto: Um gerente de projeto será responsável por coordenar as atividades, definir metas, acompanhar o progresso e garantir que o projeto seja concluído dentro do prazo estabelecido
+
+1.1.2 Recursos Materiais
+⦁	Hardware: Será necessário hardware para o desenvolvimento e teste da biblioteca, incluindo placas Arduino, sensores e componentes eletrônicos diversos.
+⦁	Computadores: Cada membro da equipe de desenvolvimento precisará de um computador para escrever código, realizar testes e documentação.
+⦁	Software: Ferramentas de desenvolvimento, como IDEs para Arduino (como Arduino IDE ou PlatformIO) e editores de código para Python, serão necessárias. Além disso, software para documentação, controle de versão e comunicação entre a equipe também será essencial.
+
+1.1.3 Recursos Temporais
+⦁	Tempo da Equipe: O tempo dos membros da equipe dedicado ao projeto deve ser estimado e planejado adequadamente, levando em consideração outras responsabilidades e projetos em andamento.
+⦁	Prazos: Serão estabelecidos prazos para cada fase do projeto, incluindo desenvolvimento, testes, documentação e lançamento.
+⦁	Contingências: Deve-se incluir uma margem de tempo para imprevistos e atrasos que possam surgir ao longo do projeto.
+
+1.1.4 Comunicação e Colaboração
+
+⦁	Ferramentas de Comunicação: Serão utilizadas ferramentas de comunicação online, como e-mails, mensagens instantâneas e videoconferências, para facilitar a colaboração entre os membros da equipe, especialmente se estiverem trabalhando remotamente.
+⦁	Plataforma de Gerenciamento de Projetos: Uma plataforma de gerenciamento de projetos, GitHub, pode ser utilizada para acompanhar o progresso das tarefas, atribuir responsabilidades e manter a equipe informada sobre o status do projeto.
+
+1.2 Escopo
+
+1.2.1 Entregaveis
+	- Trabalhar para modelar, extrair, tratar e construir uma API para atender o objetivo;
+	- Pesquisar os sensores;
+    	- Criar códigos isolados nas linguagens Python e em C++;
+   	- Criar uma classe para cada linguagem;
+   	- Disponiliblizar no github.
+
+1.2.2 Membros
+O grupo de alunos foi dividido em equipes como documentação e desenvolvimento de códigos simulando o trabalho em uma empresa do setor de software.
+
+1.2.3 Recursos Disponíveis 
+	- ESP32
+	- Sensores
+	....
+
+1.2.4 Prazo de Entrega
+⦁	....
+
+1.2.5 Cronograma
+⦁	1 semana de Abril: Criação de gupos de estudo para aprender a linguagem o Python e C++;
+⦁	2 semana de Abril: Levantamento de requisitos;
+⦁	3 semana de Abril: Definição do escopo do software;
+⦁	4 semana de Abril: Modelagem UML;
+⦁	1 semana de Maio: Criação de MVP;
+⦁	2 semana de Maio: Testes e validação.
+
+1.3 Requisitos
+1.3.1 Requisitos Funcionais 
+⦁	Configuração de Dispositivos:
+	...
+
+⦁	Documentação da Biblioteca:
+	...
+
+1.3.2 Requisitos Não Funcionais 
+⦁	Desempenho:
+	...
+
+Outros requisitos...

@@ -1,0 +1,52 @@
+passos
+0 - usar e instalar a biblioteca ADAFRUIT GFX e ADAFRUIT SSD1306 instale ambas;
+
+ 1 - encontrar o endereço I2C (protocolo de comunicação do oled) o dispositivo deve estar conectado e o codigo abaixo sera usando no oled
+ por meio de upload (ATENÇÃO O pinmode(13,OUTPUT)e o digitalwrite(13,HIGH) o numero 13 devera ser trocado pela saida correspondente): 
+ 
+ #include <wire.h>
+ 
+ void setup()
+
+{ Serial.begin (115200); while (!Serial) { }
+
+Serial.println (); Serial.println (“I2C scanner. Scanning …”); byte count = 0; pinMode(13,OUTPUT); digitalWrite(13,HIGH); Wire.begin(); for (byte i = 1; i < 120; i++) { Wire.beginTransmission (i); if (Wire.endTransmission () == 0) { Serial.print (“Found address: “); Serial.print (i, DEC); Serial. print (” (0x”); Serial.print (i, HEX); Serial.println (“)”); count++; delay (1); } } Serial.println (“Done.”); Serial.print (“Found “); Serial.print (count, DEC); Serial.println (” device(s).”); }
+
+void loop() {}
+
+apos o uso bem sucedido abra o monitor serial e vc tera uma resposta similar a esta:
+
+I2C scanner. Scanning ...
+Found address: 60 (0x3c) // <-- vc quer os números em parenteses eles provavelmente estarao diferentes, cada placa oled possui um endereço unico, copie os numeros.
+Done.
+Found 1 device(s).
+
+2 - teste inicial : em file dentro do IDE va em /examples/Adafruit SSD1306/ssd1306_128x32_i2c
+isso ira abrir um codigo feito , na linha 61 esta escrito display.begin(SSD1306_SWITCHCAPVCC, 0x3C); SUBSTITUA O 0x3c pelo numero que vc encontrou no passo anterior em caso de sucesso uma mensagem aparecera no oled.
+
+2 - codigo final : faça o upload desse codigo para o oled em caso de sucesso nas etapas anteriores
+
+
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// #define OLED_RESET () <-incluir a entrada digital do oled nesta posição e apague os parteses /
+Adafruit_SSD1306 display(OLED_RESET) ;
+
+
+void setup ()
+{
+ display.begin(SSD1306_SWITCHCAPVCC, 0x3C); // substitua o 0x3c como no passo anterior// 
+ display.clearDisplay();
+}
+
+void loop()
+{
+ display.setTextSize(1); // tamanho do texto/
+ display.setTextColor(WHITE); //cor do texto /
+ display.set.Cursor(0,0); //posição do texto/
+ display.println("as funções são executadas pelos botões começado da esquerda a direita, selecione uma: 1-(funçao a definir),2-(função a definir),3-(função a definir),4-(função a definir)"); 
+display.display();
+} 
